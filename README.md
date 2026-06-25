@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Reproducible experiments for **"Minmax Median-of-Means for Robust Conformal Calibration"** (Statistics & Computing, under review).
+Reproducible experiments for **"Minmax Median-of-Means for Robust Conformal Calibration"** (under review).
 
 MOM-conformal replaces the standard empirical quantile in split conformal prediction with a minmax median-of-means (MOM) estimator, making calibration robust to adversarial contamination of the held-out scores. This repository provides the full experimental pipeline.
 
@@ -44,7 +44,7 @@ Figures are written to `../output/`.
 ├── .gitignore
 └── experiments/
     ├── run_experiments.py         # Full experiment suite
-    ├── make_figures.py            # Nature-quality figure generator
+    ├── make_figures.py            # figure generator
     └── results/                   # Pre-computed results (8 .npz)
         ├── atlas_fig1.npz
         ├── mixed_contam.npz
@@ -146,20 +146,6 @@ All experiments use **fixed random seeds** (`SEED = 42`) with per-replication, p
 
 All experiments were run on an Intel Core i7-13700K (3.4 GHz, 16 cores, 32 GB RAM), Python 3.11, single-core wall-clock timing.
 
----
-
-## Citation
-
-```bibtex
-@article{momconformal2025,
-  title   = {Minmax {M}edian-of-{M}eans for Robust Conformal Calibration},
-  author  = {Author, First and Author, Second},
-  year    = {2025},
-  note    = {Under review}
-}
-```
-
----
 
 ## License
 
