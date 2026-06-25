@@ -154,7 +154,6 @@ All experiments were run on an Intel Core i7-13700K (3.4 GHz, 16 cores, 32 GB RA
 @article{momconformal2025,
   title   = {Minmax {M}edian-of-{M}eans for Robust Conformal Calibration},
   author  = {Author, First and Author, Second},
-  journal = {Statistics and Computing},
   year    = {2025},
   note    = {Under review}
 }
